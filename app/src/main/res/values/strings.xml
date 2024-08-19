@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">TramTracker</string>
+    <string name="mappa">Mappa</string>
+    <string name="lista">Lista</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="lista_fermate">Lista fermate</string>
+    <string name="dettagli_fermata">DETTAGLI FERMATA</string>
+    <string name="dettagli_fermata_toolbar">Dettagli fermata</string>
+    <string name="fermata_senza_parametro">Fermata: </string>
+    <string name="descrizione_senza_parametro">Punti di interesse: </string>
+    <string name="distanza_fermata_senza_parametro">Distanza (km): Calcolo in corso…</string>
+    <string name="prossima_corsa_senza_parametro">Prossima corsa: Calcolo in corso…</string>
+    <string name="prossima_corsa_andata_senza_parametro">Prossima corsa andata: Calcolo in corso…</string>
+    <string name="prossima_corsa_ritorno_senza_parametro">Prossima corsa ritorno: Calcolo in corso…</string>
+    <string name="fermata">Fermata: %1$s</string>
+    <string name="descrizione">Punti di interesse: %1$s</string>
+    <string name="distanza_fermata">Distanza (km): %1$s</string>
+    <string name="prossima_corsa">Prossima corsa: %1$s</string>
+    <string name="prossima_corsa_andata">Prossima corsa andata: %1$s</string>
+    <string name="prossima_corsa_ritorno">Prossima corsa ritorno: %1$s</string>
+    <string name="maggiori_dettagli">Maggiori dettagli</string>
+    <string name="fermate_vicine">FERMATE VICINE:</string>
+    <string name="fermata_vicina_1">FERMATA VICINA 1</string>
+    <string name="fermata_vicina_2">FERMATA VICINA 2</string>
+    <string name="fermata_item">FERMATA</string>
+    <string name="immagine_info_app">Immagine Info App</string>
+    <string name="informazioni_app_maiusc">INFORMAZIONI APP</string>
+    <string name="dettagli_risparmio_energetico">DETTAGLI RISPARMIO ENERGETICO</string>
+    <string name="dettagli_risparmio_energetico_toolbar">Dettagli risparmio energetico</string>
+    <string name="monitoraggio">MONITORAGGIO</string>
+    <string name="monitoraggio_toolbar">Monitoraggio</string>
+    <string name="immagine_batteria_livelli_di_risparmio">Immagine Batteria Livelli di Risparmio</string>
+    <string name="livelli_risparmio_energetico_maiusc">LIVELLI RISPARMIO ENERGETICO</string>
+    <string name="zero">0</string>
+    <string name="quattro">4</string>
+    <string name="livello_0">Livello 0: attivo dal 100% al 70%</string>
+    <string name="livello_1">Livello 1: attivo dal 70% al 50%</string>
+    <string name="livello_2">Livello 2: attivo dal 50% al 20%</string>
+    <string name="livello_3">Livello 3: attivo dal 20% al 10%</string>
+    <string name="livello_4">Livello 4: attivo dal 10% allo 0%</string>
+    <string name="immagine_pin_dettagli_mappa">Immagine pin dettagli mappa</string>
+    <string name="ulteriori_dettagli_fermata">Ulteriori dettagli fermata</string>
+    <string name="immagine_settings_impostazioni">Immagine settings impostazioni</string>
+    <string name="impostazioni_maiusc">IMPOSTAZIONI</string>
+    <string name="livelli_risparmio_energetico">Livelli risparmio energetico</string>
+    <string name="informazioni_app">Informazioni app</string>
+    <string name="immagine_monitoraggio_batteria">Immagine monitoraggio batteria</string>
+    <string name="stato_batteria">Stato Batteria: </string>
+    <string name="immagine_provvisoria_grafico">Immagine provvisoria grafico</string>
+    <string name="reset">Reset</string>
+    <string name="percentuale_batteria">104%</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="dettagli_piu_complessi">
+        Con il risparmio energetico attivo, delle tecniche di risparmio energetico, chiamate livelli, vengono attivate in modo progressivo.
+        Si fa utilizzo combinato di Service,
+        gestione della frequenza di aggiornamento e della precisione della localizzazione, in modo da
+        ottenere tradeoff tra le prestazioni e il consumo della batteria.
+    </string>
+
+
+
+    <string name="channel_name">Geofencing Service Channel</string>
+    <string name="channel_nameB">Brightness Notification Channel</string>
+    <string name="channel_nameD">DarkMode Notification Channel</string>
+    <string name="channel_name_db">Update Database Notification Channel</string>
+    <string name="LocationUtilitiesNotificationtitle">Aggiornamento della posizione in corso</string>
+    <string name="LocationUtilitiesNotificationText">Stato connessione GPS:</string>
+    <string name="GPSStatusText">Il segnale GPS è: </string>
+    <string name="GPSCoarseLocationUsage">Utilizzo della posizione approssimativa</string>
+    <string name="GPSSignalAbsent">Assente</string>
+    <string name="GPSSignalVeryWeak">Molto scarso</string>
+    <string name="GPSSignalWeak">Scarso</string>
+    <string name="GPSSignalGood">Buono</string>
+    <string name="GPSSignalExcelent">Ottimo</string>
+    <string name="InternetCoarseLocationUsage">Assente - Utilizzo della posizione approssimativa</string>
+    <string name="livelli_attivi_durante_il_risparmio_energetico">Livelli attivi durante il risparmio energetico:</string>
+    <string name="lev0_descr">• Frequenza massima di aggiornamento della posizione: 1s\n• Precisione massima della posizione: FINE_LOCATION\n• Inizio Foreground Service per i servizi di posizione\n• Inizio service per il Geofence\n• Inizio service per l’aggiornamento del database\n• Acquisizione di un WakeLock parziale</string>
+    <string name="lev0_perc">Livello 0 (100% - 70%)</string>
+    <string name="lev1_perc">Livello 1 (70% - 50%)</string>
+    <string name="lev2_perc">Livello 2 (50% - 20%)</string>
+    <string name="lev3_perc">Livello 3 (20% - 10%)</string>
+    <string name="lev4_perc">Livello 4 (10% - 0%)</string>
+    <string name="lev3_descr">– Frequenza di aggiornamento della posizione: da 3s a 5s\n– Precisione della posizione: COARSE_LOCATION\n– Fine service per l’aggiornamento del database\n– Rilascio del WakeLock parziale</string>
+    <string name="lev4_descr">– Frequenza di aggiornamento della posizione: da 5s a 10s\n– Notifica di suggerimento di riduzione della luminosità del dispositivo\n– Fine service per il Geofence</string>
+    <string name="lev2_descr">– Frequenza di aggiornamento della posizione: da 1s a 3s</string>
+    <string name="lev1_descr">– Notifica di suggerimento di riduzione della luminosità del dispositivo\n– Notifica di suggerimento di attivazione della modalità Dark Mode</string>
+    <string name="ricentra_txt">Ricentra</string>
+    <string name="caricamento_del_database_in_corso_txt">Caricamento del database in corso ...</string>
+    <string name="switch_description">Gestione automatica dei livelli di risparmio energetico</string>
+    <string name="risparmio_energetico_txt">Risparmio energetico</string>
+    <string name="modalit_standard_txt">Modalità Standard</string>
+    <string name="consumi_usonormale_txt">Tramite utilizzo dell’app in modalità Standard, i consumi sono indicativamente il 100% di batteria in 3 ore e 43 minuti, con un consumo di batteria pari a 25.75% all’ora.</string>
+    <string name="modalit_risparmio_energetico_txt">Modalità Risparmio energetico</string>
+    <string name="uso_livelli_senza_consigli_txt">Tramite utilizzo dell’app in modalità Risparmio energetico, i consumi sono indicativamente i seguenti:</string>
+    <string name="lv0_stat">Livello 0: 30% in 70 minuti (25.71% all’ora)</string>
+    <string name="lv1_stat">Livello 1: 20% in 54 minuti (22.22% all’ora)</string>
+    <string name="lv2_stat">Livello 2: 30% in 73 minuti (24.65% all’ora)</string>
+    <string name="lv3_stat">Livello 3: 10% in 23 minuti (26.09% all’ora)</string>
+    <string name="lv4_stat">Livello 4: 10% in 20 minuti (30% all’ora)</string>
+    <string name="modalit_risparmio_energetico_con_consigli_txt">Modalità Risparmio energetico (con consigli)</string>
+    <string name="uso_livelli_consigli_txt">Tramite utilizzo dell’app in modalità Risparmio energetico seguendo i consigli forniti dalle notifiche, i consumi sono indicativamente i seguenti:</string>
+    <string name="lv0_cons_stat">Livello 0: 30% in 87 minuti (20.69% all’ora)</string>
+    <string name="lv1_cons_stat">Livello 1: 20% in 92 minuti (13.04% all’ora)</string>
+    <string name="lv2_cons_stat">Livello 2: 30% in 100 minuti (18.00% all’ora)</string>
+    <string name="lv3_cons_stat">Livello 3: 10% in 34 minuti (17.64% all’ora)</string>
+    <string name="lv4_cons_stat">Livello 4: 10% in 42 minuti (14.28% all’ora)</string>
+
+
+    <string-array name="tram_list">
+        <item>Capolinea Sud</item>
+        <item>Guizza</item>
+        <item>Cuoco</item>
+        <item>Bassanello</item>
+        <item>Prato</item>
+        <item>Diaz</item>
+        <item>Diaz</item>
+        <item>Ponti Romani</item>
+        <item>Eremitani</item>
+        <item>Stazione</item>
+        <item>Vigodarzere</item>
+    </string-array>
+</resources>

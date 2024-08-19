@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_list"
+    app:startDestination="@id/tramListFragment">
+
+
+    <fragment
+        android:id="@+id/tramListFragment"
+        android:name="com.example.tramtracker.ui.TramListFragment"
+        android:label="TramListFragment" >
+        <action
+            android:id="@+id/action_tramListFragment_to_moreDetailFragment"
+            app:destination="@id/moreDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moreDetailFragment"
+        android:name="com.example.tramtracker.ui.MoreDetailFragment"
+        android:label="MoreDetailFragment" />
+</navigation>

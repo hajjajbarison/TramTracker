@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_settings"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.tramtracker.ui.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_levelsFragment"
+            app:destination="@id/levelsFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_savingDetailsFragment"
+            app:destination="@id/savingDetailsFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelsFragment"
+        android:name="com.example.tramtracker.ui.LevelsFragment"
+        android:label="LevelsFragment" />
+    <fragment
+        android:id="@+id/savingDetailsFragment"
+        android:name="com.example.tramtracker.ui.SavingDetailsFragment"
+        android:label="SavingDetailsFragment" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.tramtracker.ui.StatisticsFragment"
+        android:label="StatisticsFragment" />
+</navigation>

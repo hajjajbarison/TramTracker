@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mappa"
+        android:icon="@drawable/map_24dp_fill0_wght400_grad0_opsz24"
+        android:title="@string/mappa" />
+
+    <item
+        android:id="@+id/navigation_lista"
+        android:icon="@drawable/baseline_list_24"
+        android:title="@string/lista" />
+
+    <item
+        android:id="@+id/navigation_impostazioni"
+        android:icon="@drawable/settings_24dp_fill0_wght400_grad0_opsz24"
+        android:title="@string/impostazioni" />
+
+</menu>
