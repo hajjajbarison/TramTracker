@@ -1,3 +1,9 @@
+Progetto di gruppo del corso "Programmazione di Sistemi Embedded".
+Componenti del gruppo:
+- Hajjaj Barison
+- Giulio Bellese
+- Christian Renzi
+
 ## Comandi per la Profilazione
 ### Resettare log Batteria
 Comando da eseguire prima di registrare nuovi dati
